@@ -2,11 +2,12 @@
 My first websites: Somebody's Name: personal website template
 
 Used technologies, plugins, libraries...
-HTML5
-CSS
-jQuery
-GMaps
-Fancybox
-Animate CSS
-Responsive Web Design
+HTML5, 
+CSS, 
+jQuery, 
+Responsive Web Design, 
+GMaps, 
+Fancybox, 
+Animate CSS, 
+
 
