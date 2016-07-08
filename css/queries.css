@@ -1,0 +1,304 @@
+/* 1024-1200 px */
+
+@media only screen and (max-width: 1200px) {
+	.name {
+		width: 100%;
+		padding-left: 3%;
+	}
+	
+	.row {
+		padding: 0 3%;
+	}}
+
+
+/* small tablets to big tablets 768px to 1023px*/
+
+@media only screen and (max-width: 1023px){
+	body, textarea, input {
+		font-size: 18px;
+	}
+	
+	.column-1, .column-2, .column-3 {
+		font-size: 17px;
+	}
+	
+	input[type=submit] {
+	width: 25%;
+	}
+	
+	.aboutme, .work, .galeria, .free-time, .contact {
+		padding-top: 40px;
+	}
+	
+	.aboutme, .work, .free-time {
+		padding-bottom: 40px;
+	}
+	
+	.work-title, .galeria-zdjec, .free-time-title, .contact-title, .live-title, .job-title, .hobby-title {
+		margin-bottom: 20px;
+	}
+	
+	.form {
+		width: 55%;
+	}
+    
+	
+	.gallery li {
+		width: 25%;
+	}
+	
+	
+	
+	.gallery-photo img {
+		height: 180px;
+	}	
+}
+
+
+/* small phones to small tablets 481px to 767px*/
+
+@media only screen and (max-width: 767px){
+	body, textarea, input {
+		font-size: 16px;
+	}
+	
+	.aboutme, .work, .free-time, .contact {
+		padding-left: 15px;
+		padding-right: 15px;	
+	}
+	
+	.name {
+		top: 70%;
+	
+	}
+	
+	.ewa-photo {
+		height: 140px;
+		width: 140px;
+	}
+	
+	.column-1, .column-2, .column-3 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.experience-headline, .education-headline {
+		max-width: 100%;
+		margin: 10px auto;
+	}
+	
+	.education, .experience {
+		width: 100%;
+	}
+	
+	.education {
+		margin-bottom: 10px;
+	}
+    
+    .education-description, .experience-description {
+        width: 100%;
+    }
+	
+	.gallery-photo img {
+		height: 150px;
+	}
+	
+	
+	
+	.gallery li:last-child {
+		display: none;
+	}
+	
+	.gallery li {
+		width: 33.33%;
+	}
+	
+	.kontakt-form-map {
+		height: auto;
+		
+	}
+	
+	.form {
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+		height: 510px;
+	}
+    
+    form {
+        height: 300px;
+    }
+	
+	.map {
+		height: 200px;
+		width: 100%;
+	}
+	
+	.footer-links, .footer-social {
+		width: 100%;
+		font-size: 130%;
+	}
+	
+	.footer-social li {
+		float: left;	
+	}
+    
+	.email_contact {
+		margin-top: 15px;
+		font-size: 20px;
+	}
+	
+	.copyright {
+	margin-top: 20px;
+	}		
+}
+
+
+
+/* PONIŻEJ 481PX */
+
+@media only screen and (max-width: 480px){
+	.ewa-photo {
+		height: 120px;
+		width: 120px;
+	}
+	
+	.name {
+		max-width: 100%;
+	}
+	
+	.photoewa {
+		margin-left: 31%;
+	}
+	
+	.ewa-title {
+		margin: 0px 25%;
+		max-width: 100%;
+		float: none;
+		padding-left: 0;
+	}
+	
+	h1 {
+		font-size: 180%;
+	}
+	
+	footer {
+		max-height: 290px;
+	}
+	
+	.email_contact {
+	margin-top: 25px;
+	}
+	
+	.footer-nav li{
+		margin-top: 20px;
+	}
+    
+    .footer-nav, .social-links {
+	   padding-top: 10px;
+    }
+}
+	
+
+
+/* PONIŻEJ 380PX */
+
+@media only screen and (max-width: 380px){
+	.name {
+		max-width: 100%;
+		
+	}
+	
+	.photoewa {
+		margin-left: 26%;
+	}
+	
+	.ewa-title {
+		margin: 0px 25%;
+		max-width: 100%;
+		float: none;
+	}
+	
+	h1 {
+		max-width: 100%;
+		margin-left: 0px;
+		font-size: 110%;
+	}
+	
+	
+	.gallery li {
+		width: 50%;
+	}
+	
+	.gallery li:first-child  {
+		display: none;
+	}
+	
+	.gallery-photo img {
+		height: 120px;
+	}
+	
+	.copyright {
+		font-size: 15px;
+	}
+	
+	.aboutme, .work, .galeria, .free-time, .contact {
+		padding-top: 20px;
+	}
+	
+	body, textarea, input {
+		font-size: 15px;
+	}
+	
+	.column-1, .column-2, .column-3 {
+		font-size: 15px;
+	}
+}
+
+
+
+/* max 560px dla menu hamburger*/
+@media only screen and (max-width: 560px) {	
+	.main-nav {
+		display: none;
+	}
+	
+	.mobile-circle-menu {
+		display: inline-block;
+	}
+	
+	.main-nav {
+		float:left;
+		margin-top: 35px;
+		margin-left: 25px;
+		border-bottom: none;
+		padding: 0px;
+	}
+	
+	.main-nav li {
+		display: block;
+	}
+	
+	
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+    
+    .footer-social {
+		margin-top: 20px;
+    }
+}
+
+
+
+/* max height dla niewysokich smartfonów */
+
+@media only screen and (max-height: 470px) {
+		.name {
+			top: 75%;}
+	}
+	
