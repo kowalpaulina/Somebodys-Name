@@ -8,6 +8,6 @@ jQuery,
 Responsive Web Design, 
 GMaps, 
 Fancybox, 
-Animate CSS, 
+Animate CSS
 
 
